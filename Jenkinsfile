@@ -1,5 +1,5 @@
 pipeline {
-    agent Sebastien
+    agent seb-label
 
     stages {
         stage('Hello') {
