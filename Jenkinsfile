@@ -1,6 +1,5 @@
 pipeline {
-    agent seb-label
-
+    agent { label 'seb-label' }
     stages {
         stage('Hello') {
             steps {
